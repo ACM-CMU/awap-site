@@ -20,7 +20,7 @@
     "typescript": "^3.7.5"
   },
   "engines": {
-    "node": "17.3.1",
+    "node": "16.3.2",
     "npm": "8.3.0"
   },
   "scripts": {
