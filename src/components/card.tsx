@@ -50,20 +50,20 @@ export class Card extends React.Component<Props, State> {
                 {
                     size: "big",
                     delay: 75,
-                    content: "hackCMU",
-                    isGlitched: true,
+                    content: "AWAP",
+                    isGlitched: false,
                 },
                 {
                     size: "small",
                     delay: 10,
-                    content: "2020 edition, brought to you by ACM@CMU",
+                    content: "2022 edition, brought to you by ACM@CMU",
                     isGlitched: false,
                     className: "acm-msg",
                 },
                 {
                     size: "small",
                     delay: 7,
-                    content: "location: virtual",
+                    content: "location: in-person",
                     isGlitched: false,
                 },
                 {
