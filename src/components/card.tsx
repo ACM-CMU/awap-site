@@ -43,7 +43,7 @@ export class Card extends React.Component<Props, State> {
             currActive: 0,
             lines: [
                 {
-                    size: "small",
+                    size: "medium",
                     delay: 10,
                     content: "2022 edition, brought to you by ACM@CMU",
                     isGlitched: false,
@@ -70,7 +70,7 @@ export class Card extends React.Component<Props, State> {
                 {
                     size: "small",
                     delay: 7,
-                    content: "> ready? click here to register",
+                    content: "~ ready? click here to register",
                     isGlitched: false,
                     link: "https://forms.gle/Zt3aq957vi5FRoPc7",
                     className: "wide-top",
@@ -78,14 +78,14 @@ export class Card extends React.Component<Props, State> {
                 {
                     size: "small",
                     delay: 7,
-                    content: "> click here to register as a mentor instead",
+                    content: "~ click here to register as a mentor instead",
                     isGlitched: false,
                     link: "https://forms.gle/eEY3HNSpz9zSHPkp8",
                 },
                 {
                     size: "small",
                     delay: 7,
-                    content: "> not ready yet? click here for more info",
+                    content: "~ not ready yet? click here for more info",
                     isGlitched: false,
                     onClick: this.showPopup,
                 }
