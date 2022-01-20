@@ -36,25 +36,9 @@ export class Info extends React.Component<Props, State> {
                     <div className="note">Note: all times in eastern time (EST)</div>
                     <div className="schedule">
                         <div className="day-events">
-                            <div className="dow">Friday, September 25</div>
-                            <div className="tod">Afternoon:</div>
+                            <div className="dow">Friday, February 25</div>
                             <div className="entry">5:00 Opening ceremony</div>
                             <div className="entry">6:00 Hacking starts!</div>
-                            <div className="entry">Tech talks and tutorials TBA!</div>
-                        </div>
-                        <div className="day-events">
-                            <div className="dow">Saturday, September 26</div>
-                            <div className="tod">All day:</div>
-                            <div className="entry">More tech talks and tutorials TBA!</div>
-                            <div className="tod">Afternoon:</div>
-                            <div className="entry">6:00 Hacking ends!</div>
-                            <div className="entry">7:30 Video submission deadline</div>
-                            <div className="entry">8:00 Live demo session</div>
-                        </div>
-                        <div className="day-events">
-                            <div className="dow">Sunday, September 27</div>
-                            <div className="tod">Afternoon:</div>
-                            <div className="entry">3:00 Closing ceremony</div>
                         </div>
                     </div>
                 </>
@@ -63,18 +47,16 @@ export class Info extends React.Component<Props, State> {
             return (
                 <>
                     <div className="content-title">faq</div>
-                    <div className="question">Q: What will the virtual hackathon look like?</div>
-                    <div className="answer">The primary platform will be a 24/7 live stream. We will be streaming events such as the opening ceremony, tech talks, demos, and awards ceremony. There may also be some fun activities like puzzles, games and raffles on the live stream. Mentors and sponsors will be available to chat with on our Hackathon discord server. Judging will take place through a video submission. Teams can optionally do a live demo as well on the live stream.</div>
+                    <div className="question">Q: What is Algorithms with a Purpose (AWAP)?</div>
+                    <div className="answer">AWAP is a 6-hour long competition that poses an open-ended problem. Teams of up to 4 will implement an AI to "play" the given game.</div>
                     <div className="question">Q: What if I don’t have a team?</div>
                     <div className="answer">Don’t worry, there will be a virtual mixer at the start of the event, where you will be shuffled around in Zoom breakout rooms and meet other individual hackers.</div>
-                    <div className="question">Q: Where can I participate from?</div>
-                    <div className="answer">You don’t have to be near CMU campus to participate. In fact, there is no in-person component of this hackathon. We welcome you to hack remotely and work with your team through virtual methods. </div>
-                    <div className="question">Q: What if I have a weak connection/bad internet?</div>
-                    <div className="answer">The project demos will be through a video submission and you have 1.5 hours to submit, so you don’t need to worry about losing connection during a demo. All other events will be through standard video calling or live streams and can be rewatched.</div>
+                    <div className="question">Q: Do I need to have experience?</div>
+                    <div className="answer">This is a beginner-friendly competition and only basic knowledge of Python is necessary. Some basic knowledge on data structures and algorithms may be helpful. </div>
                     <div className="question">Q: Will there be prizes or swag?</div>
                     <div className="answer">We will be shipping prizes to the winners after the hackathon in the US. Unfortunately we are unable to ship internationally, but if you come back to campus in later semesters, we will be sure to get the prizes to you. We are also working on getting tshirts, but still are figuring out how to distribute those to people on campus in a safe manner. If you are not on campus, you can pick up a t-shirt in later semesters.</div>
                     <div className="question">Q: Who runs this event?</div>
-                    <div className="answer">You can learn more about us <a href="https://acmatcmu.org">over here.</a></div>
+                    <div className="answer">You can learn more about us ACM@CMU <a href="https://acmatcmu.org">over here.</a></div>
                 </>
             );
         } else {
