@@ -1,6 +1,6 @@
-# HackCMU 2020 home page
+# AWAP Site
 
-This is HackCMU's 2020 home page. It is currently live at hackcmu.org.
+This is the codebase for HackCMU's AWAP site.
 
 ## Getting started
 
@@ -8,5 +8,4 @@ Run `npm install` then `npm start`.
 
 ## Technologies
 
-Uses typescript, react, and deployed using surge. For surge details, contact
-the current president of ACM@CMU.
+Uses typescript, react, and deployed using heroku

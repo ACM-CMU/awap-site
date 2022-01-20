@@ -8,6 +8,7 @@ import { Info } from './info';
 import { SizeType, Text } from './text';
 
 import png_logo from '../dog_logo.png';
+import awap from '../awap-text.png';
 import './card.scss';
 
 type Line = {
@@ -42,18 +43,6 @@ export class Card extends React.Component<Props, State> {
             currActive: 0,
             lines: [
                 {
-                    size: "medium",
-                    delay: 65,
-                    content: "welcome to...",
-                    isGlitched: false,
-                },
-                {
-                    size: "big",
-                    delay: 75,
-                    content: "AWAP",
-                    isGlitched: false,
-                },
-                {
                     size: "small",
                     delay: 10,
                     content: "2022 edition, brought to you by ACM@CMU",
@@ -69,13 +58,13 @@ export class Card extends React.Component<Props, State> {
                 {
                     size: "small",
                     delay: 7,
-                    content: "start: friday, september 25, 5:00 pm",
+                    content: "start: friday, february 25, 11:00 am",
                     isGlitched: false,
                 },
                 {
                     size: "small",
                     delay: 7,
-                    content: "end: saturday, september 26, 8:00 pm",
+                    content: "end: friday, friday 25, 8:00 pm",
                     isGlitched: false,
                 },
                 {
@@ -161,8 +150,11 @@ export class Card extends React.Component<Props, State> {
             <>
                 <Info active={overlay} hidePopup={this.hidePopup} />
                 <div className={cardClasses}>
-                    <div className="left"><Image minOpacity={0.2} maxOpacity={1} img={png_logo} /></div>
-                    <div className="right">{this.renderRight()}</div>
+                    <div className="left"><Image minOpacity={1} maxOpacity={1} img={png_logo} /></div>
+                    <div className="right">
+                        <Image minOpacity={0.1} maxOpacity={0.9} img={awap} />
+                        {this.renderRight()}
+                    </div>
                 </div>
             </>
         );
