@@ -8,6 +8,8 @@ import microsoft from './logos/microsoft.svg';
 import sandia from './logos/sandia.svg';
 import scm from './logos/scm.png';
 import hrt from './logos/hrt.png';
+import js from './logos/js.png';
+import meta from './logos/meta.svg';
 
 type Props = {
     delay: number;
@@ -68,6 +70,8 @@ export class Sponsors extends React.Component<Props, State> {
                     <img className="microsoft" src={microsoft} alt={microsoft} />
                     <img className="sandia" src={sandia} alt={sandia} />
                     <img className="scm" src={scm} alt={scm} />
+                    <img className="js" src={js} alt={js} />
+                    <img className="meta" src={meta} alt={meta} />
                 </div>
             </>
         );

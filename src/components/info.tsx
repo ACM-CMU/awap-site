@@ -29,8 +29,8 @@ export class Info extends React.Component<Props, State> {
                     <div className="note">Note: all times in eastern time (EST)</div>
                     <div className="schedule">
                         <div className="day-events">
-                            <div className="dow">Saturday, February 12</div>
-                            <div className="entry">10:00 Opening ceremony</div>
+                            <div className="dow">Saturday, February 19</div>
+                            <div className="entry">11:00 Opening ceremony</div>
                             <div className="entry">6:00 Event ends!</div>
                         </div>
                     </div>
@@ -41,7 +41,9 @@ export class Info extends React.Component<Props, State> {
                 <>
                     <div className="content-title">faq</div>
                     <div className="question">Q: What is Algorithms with a Purpose (AWAP)?</div>
-                    <div className="answer">AWAP is a 6-hour long competition that poses an open-ended problem. Teams of up to 4 will implement an AI to "play" the given game.</div>
+                    <div className="answer">AWAP is an exciting 7-hour algorithms hackathon that poses an open-ended problem. Teams of up to 4 will implement creative and clever solutions and compete to win prizes! This year’s theme involves cell towers and cities. The event will be open to both newcomers and experienced hackers, with two separate competition brackets to accommodate both. Only basic knowledge of Python is necessary.</div>
+                    <div className='question'>Q: What is this year's game about?</div>
+                    <div className='answer'>This year’s game is Wifi Rumble, where teams’ algorithms will compete head-to-head to build cell towers on various maps and provide cell service to the greatest population.</div>
                     <div className="question">Q: What if I don’t have a team?</div>
                     <div className="answer">Don’t worry, there will be a virtual mixer at the start of the event, where you will be shuffled around in Zoom breakout rooms and meet other individual hackers.</div>
                     <div className="question">Q: Do I need to have experience?</div>
