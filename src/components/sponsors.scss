@@ -1,0 +1,57 @@
+.sponsors {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+
+    width: 70%;
+    height: 100px;
+    display: flex;
+    align-items:center;
+
+    margin: 10px 15px;
+    overflow: auto;
+
+    margin-top: 20px;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+    .aptiv {
+        margin-top: 5px;
+        height: 18px;
+    }
+    .bloomberg {
+        margin-top: 15px;
+        height: 26px;
+    }
+    .echoar {
+        margin-top: 20px;
+        height: 40px;
+    }
+    .microsoft {
+        margin-top: 15px;
+        height: 36px;
+    }
+    .sandia {
+        margin-top: 15px;
+        height: 45px;
+    }
+    .scm {
+        margin-top: 5px;
+        height: 60px;
+    }
+    .hrt {
+        margin-top: 15px;
+        height: 36px;
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    .sponsors{
+        display: none;
+    }
+}
