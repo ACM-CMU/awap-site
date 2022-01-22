@@ -51,7 +51,7 @@ export class Info extends React.Component<Props, State> {
                     <div className="question">Q: Will there be prizes or swag?</div>
                     <div className="answer">We will be shipping prizes to the winners after the hackathon in the US. Unfortunately we are unable to ship internationally, but if you come back to campus in later semesters, we will be sure to get the prizes to you. We are also working on getting tshirts, but still are figuring out how to distribute those to people on campus in a safe manner. If you are not on campus, you can pick up a t-shirt in later semesters.</div>
                     <div className="question">Q: Who runs this event?</div>
-                    <div className="answer">You can learn more about us ACM@CMU <a href="https://acmatcmu.org">over here.</a></div>
+                    <div className="answer">You can learn more about us ACM@CMU <a href="https://acmatcmu.com">over here.</a></div>
                 </>
             );
         };
