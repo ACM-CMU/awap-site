@@ -1,13 +1,6 @@
 import React from 'react';
 import './info.scss';
 
-import aptiv from './logos/aptiv.svg';
-import bloomberg from './logos/bloomberg.svg';
-import echoar from './logos/echoar.png';
-import microsoft from './logos/microsoft.svg';
-import sandia from './logos/sandia.svg';
-import scm from './logos/scm.png';
-
 type TabType = "schedule" | "faq" | "sponsors";
 
 type Props = {
@@ -36,9 +29,9 @@ export class Info extends React.Component<Props, State> {
                     <div className="note">Note: all times in eastern time (EST)</div>
                     <div className="schedule">
                         <div className="day-events">
-                            <div className="dow">Friday, February 25</div>
-                            <div className="entry">5:00 Opening ceremony</div>
-                            <div className="entry">6:00 Hacking starts!</div>
+                            <div className="dow">Saturday, February 12</div>
+                            <div className="entry">10:00 Opening ceremony</div>
+                            <div className="entry">6:00 Event ends!</div>
                         </div>
                     </div>
                 </>
@@ -59,22 +52,7 @@ export class Info extends React.Component<Props, State> {
                     <div className="answer">You can learn more about us ACM@CMU <a href="https://acmatcmu.org">over here.</a></div>
                 </>
             );
-        } else {
-            return (
-                <>
-                    <div className="content-title">sponsors</div>
-                    <div className="thanks">This event would simply not be possible without the help of our sponsors. We are immensely thankful for our sponsors below.</div>
-                    <div className="logos">
-                        <img className="aptiv" src={aptiv} alt={aptiv} />
-                        <img className="bloomberg" src={bloomberg} alt={bloomberg} />
-                        <img className="echoar" src={echoar} alt={echoar} />
-                        <img className="microsoft" src={microsoft} alt={microsoft} />
-                        <img className="sandia" src={sandia} alt={sandia} />
-                        <img className="scm" src={scm} alt={scm} />
-                    </div>
-                </>
-            );
-        }
+        };
     };
 
     changeTab(newTab: TabType) {
@@ -82,7 +60,7 @@ export class Info extends React.Component<Props, State> {
     };
 
     renderTabs() {
-        let tabs: Array<TabType> = ["schedule", "faq", "sponsors"];
+        let tabs: Array<TabType> = ["schedule", "faq"];
         let buttons = []
         for (let i = 0; i < tabs.length; i++) {
             let clickFn = () => this.changeTab(tabs[i]);

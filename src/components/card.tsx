@@ -52,7 +52,7 @@ export class Card extends React.Component<Props, State> {
                 {
                     size: "small",
                     delay: 7,
-                    content: "location: in-person",
+                    content: "location: in-person @ Gates-Hillman Center",
                     isGlitched: false,
                 },
                 {
@@ -64,7 +64,7 @@ export class Card extends React.Component<Props, State> {
                 {
                     size: "small",
                     delay: 7,
-                    content: "end: saturday, february 25, 6:00 pm",
+                    content: "end: saturday, february 12, 6:00 pm",
                     isGlitched: false,
                 },
                 {
@@ -72,15 +72,8 @@ export class Card extends React.Component<Props, State> {
                     delay: 7,
                     content: "~ ready? click here to register",
                     isGlitched: false,
-                    link: "https://forms.gle/Zt3aq957vi5FRoPc7",
+                    link: "https://forms.gle/hXvrFZhVmt1oBXSD9",
                     className: "wide-top",
-                },
-                {
-                    size: "small",
-                    delay: 7,
-                    content: "~ click here to register as a mentor instead",
-                    isGlitched: false,
-                    link: "https://forms.gle/eEY3HNSpz9zSHPkp8",
                 },
                 {
                     size: "small",

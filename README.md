@@ -1,6 +1,6 @@
 # AWAP Site
 
-This is the codebase for HackCMU's AWAP site.
+This is the codebase for ACM@CMU's AWAP site.
 
 ## Getting started
 
