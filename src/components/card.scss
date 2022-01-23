@@ -7,11 +7,9 @@
 }
 
 .left {
-    width: 300px;
+    width: 650px;
     height: 100%;
     padding-right: 50px;
-    display: flex;
-    align-items: center;
 }
 
 .logo {
@@ -49,7 +47,7 @@
     }
 
     .left {
-        width: 300px;
+        width: 400px;
         height: auto;
         padding: 0px;
         margin-bottom: 20px;
@@ -63,7 +61,7 @@
 
 @media only screen and (max-width: 550px) {
     .left {
-        width: 200px;
+        width: 250px;
     }
     .right {
         width: 305px;

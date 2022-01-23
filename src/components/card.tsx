@@ -7,8 +7,8 @@ import { Input } from './input';
 import { Info } from './info';
 import { SizeType, Text } from './text';
 
-import png_logo from '../dog_logo.png';
-import awap from '../awap-text.png';
+import webimage from '../website-image.png';
+import awap from '../awap-w-text.png';
 import './card.scss';
 
 type Line = {
@@ -38,7 +38,7 @@ export class Card extends React.Component<Props, State> {
     constructor(props: Props) {
         super(props);
         this.state = {
-            img: png_logo,
+            img: webimage,
             imgThreshold: 1,
             currActive: 0,
             lines: [
@@ -143,7 +143,7 @@ export class Card extends React.Component<Props, State> {
             <>
                 <Info active={overlay} hidePopup={this.hidePopup} />
                 <div className={cardClasses}>
-                    <div className="left"><Image minOpacity={1} maxOpacity={1} img={png_logo} /></div>
+                    <div className="left"><Image minOpacity={0.95} maxOpacity={1} img={webimage} /></div>
                     <div className="right">
                         <Image minOpacity={0.1} maxOpacity={0.9} img={awap} />
                         {this.renderRight()}
