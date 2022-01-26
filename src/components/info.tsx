@@ -16,7 +16,7 @@ export class Info extends React.Component<Props, State> {
     constructor(props: Props) {
         super(props);
         this.state = {
-            tab: "schedule",
+            tab: "faq",
         };
     };
 
@@ -31,7 +31,8 @@ export class Info extends React.Component<Props, State> {
                         <div className="day-events">
                             <div className="dow">Saturday, February 19</div>
                             <div className="entry">11:00 Opening ceremony</div>
-                            <div className="entry">6:00 Event ends!</div>
+                            <div className="entry">12:30 Lunch Served</div>
+                            <div className="entry">6:00 Final Submission Due</div>
                         </div>
                     </div>
                 </>
@@ -48,10 +49,12 @@ export class Info extends React.Component<Props, State> {
                     <div className="answer">Don’t worry, there will be a virtual mixer at the start of the event, where you will be shuffled around in Zoom breakout rooms and meet other individual hackers.</div>
                     <div className="question">Q: Do I need to have experience?</div>
                     <div className="answer">This is a beginner-friendly competition and only basic knowledge of Python is necessary. Some basic knowledge on data structures and algorithms may be helpful. </div>
+                    <div className="question">Q: But but what if I'm really really beginner, like really?</div>
+                    <div className="answer">There will be two compeition brackets! One for beginners and another for experienced players.</div>       
                     <div className="question">Q: Will there be prizes or swag?</div>
-                    <div className="answer">We will be shipping prizes to the winners after the hackathon in the US. Unfortunately we are unable to ship internationally, but if you come back to campus in later semesters, we will be sure to get the prizes to you. We are also working on getting tshirts, but still are figuring out how to distribute those to people on campus in a safe manner. If you are not on campus, you can pick up a t-shirt in later semesters.</div>
+                    <div className="answer">Yes there will be prizes, swag and t-shirts!</div>
                     <div className="question">Q: Who runs this event?</div>
-                    <div className="answer">You can learn more about us ACM@CMU <a href="https://acmatcmu.com">over here.</a></div>
+                    <div className="answer">You can learn more about us ACM@CMU <a href="http://www.acmatcmu.com">over here.</a></div>
                 </>
             );
         };
@@ -62,7 +65,7 @@ export class Info extends React.Component<Props, State> {
     };
 
     renderTabs() {
-        let tabs: Array<TabType> = ["schedule", "faq"];
+        let tabs: Array<TabType> = ["faq","schedule"];
         let buttons = []
         for (let i = 0; i < tabs.length; i++) {
             let clickFn = () => this.changeTab(tabs[i]);

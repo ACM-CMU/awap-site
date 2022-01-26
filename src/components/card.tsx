@@ -58,6 +58,12 @@ export class Card extends React.Component<Props, State> {
                 {
                     size: "small",
                     delay: 7,
+                    content: "meals & snacks provided!",
+                    isGlitched: false,
+                },
+                {
+                    size: "small",
+                    delay: 7,
                     content: "start: saturday, february 19, 11:00 am",
                     isGlitched: false,
                 },
